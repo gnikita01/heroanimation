@@ -1,6 +1,6 @@
 # animations
 
-A new Flutter project.
+Flutter app with 2 types of animations : Hero Animation and Radial Hero Animation
 
 ## Getting Started
 
