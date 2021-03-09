@@ -12,7 +12,9 @@ final double width;
 Widget build(BuildContext context) { 
 	return SizedBox( 
 	width: width, 
+  //Declare Hero Widget and remaining widget tree
 	child: Hero( 
+    //create tags with same names to display transition
 		tag: photo, 
 		child: Material( 
 		color: Colors.transparent, 
@@ -47,7 +49,7 @@ Widget build(BuildContext context) {
 				builder: (BuildContext context) { 
 				return Scaffold( 
 					appBar: AppBar( 
-					title: const Text('Aquaman transition'), 
+					title: const Text('Photo transition'), 
 					backgroundColor: Colors.green, 
 					), 
 					body: Container( 
